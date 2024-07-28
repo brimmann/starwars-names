@@ -1,0 +1,25 @@
+{
+  "name": "@brimmann/starwars-names",
+  "version": "1.0.0",
+  "description": "Get random Starwars names",
+  "type": "module",
+  "main": "src\\index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "'https://github.com/brimmann/starwars-names.git'"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "Mohammad Rashid Stanikzai <rashidstanikzai.net@gmail.com> (http://codeglyn.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@brimmann/starwars-names": "1.0.0",
+    "unique-random-array": "4.0.0"
+  }
+}
