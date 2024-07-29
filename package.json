@@ -8,10 +8,6 @@
     "commit": "cz",
     "test": "mocha src/index.test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "'https://github.com/brimmann/starwars-names.git'"
-  },
   "keywords": [
     "random",
     "star",
