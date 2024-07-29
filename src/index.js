@@ -14,3 +14,10 @@ export const random = (number) => {
     return randomItems;
   }
 };
+export const addCustomName = (name) => {
+  if(name !== undefined) {
+    starWarsNames.push(name)
+  } else {
+    console.error("addCusotmName() requires a name as argument")
+  }
+} 

@@ -26,4 +26,10 @@ describe("starwars-names", () => {
       });
     });
   });
+  describe("addCustomName", () => {
+    it("should contain the new added name", () => {
+      starwars.addCustomName("Kolo Cha");
+      expect(starwars.all).to.include("Kolo Cha")
+    })
+  })
 });
