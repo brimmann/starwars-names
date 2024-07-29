@@ -1,4 +1,4 @@
-[
+export default [
   "4-LOM",
   "Aayla Secura",
   "Admiral Ackbar",

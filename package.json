@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src\\index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "cz",
+    "test": "mocha src/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,16 @@
   "dependencies": {
     "@brimmann/starwars-names": "1.0.0",
     "unique-random-array": "4.0.0"
+  },
+  "devDependencies": {
+    "chai": "5.1.1",
+    "cz-conventional-changelog": "3.3.0",
+    "mocha": "10.7.0",
+    "semantic-release": "24.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
